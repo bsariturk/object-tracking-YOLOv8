@@ -8,4 +8,4 @@ results = model.track(source=video_path,          # For webcam stream as input, 
                       conf=0.5,                   # Confidence threshold for detection
                       show=True,
                       save=False,
-                      tracker="bytetrack.yaml")     # Available trackers; ByteTrack (bytetrack.yaml), BoT-SORT (botsort.yaml)
+                      tracker="bytetrack.yaml")   # Available trackers; ByteTrack (bytetrack.yaml), BoT-SORT (botsort.yaml)
